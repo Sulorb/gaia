@@ -1,14 +1,125 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+
+  <ion-grid no-margin no-padding>
+    <!-- Header -->
+    <ion-row style="background-color: rgb(48, 48, 48); color: white;">
+      <ion-col style="height: 90px; display: flex;"> <span style="margin: auto; font-size: 1.3em">À PROPOS</span></ion-col>
+      <ion-col style="height: 90px; display: flex;"> <span style="margin: auto; font-size: 1.3em">NOTRE MISSION</span></ion-col>
+      <ion-col style="height: 90px; display: flex;"> <img src="assets/elements/logo.png" style="margin: auto; height: 100%;"></ion-col>
+      <ion-col style="height: 90px; display: flex;"> <span style="margin: auto; font-size: 1.3em">LA DÉMARCHE</span></ion-col>
+      <ion-col style="height: 90px; display: flex;" no-margin no-padding> <span style="margin: auto; font-size: 1.3em">EN CHIFFRES</span>
+      </ion-col>
+    </ion-row>
+
+    <!-- Vidéo -->
+    <ion-row style="position: relative;">
+      <div>
+        <img src="assets/elements/header.jpg" style="margin-bottom: -3px;">
+      </div>
+    </ion-row>
+
+    <!-- À propos -->
+    <ion-row>
+      <ion-col style="background-image: url('assets/elements/screen1.png'); height: 400px; background-position: top center;">
+        <!-- <img src="assets/elements/screen1.png" style="margin: auto; object-fit: cover; height: 400px; width: 100%;"> -->
+      </ion-col>
+
+      <ion-col style="text-align: right;">
+        <div style="margin-right: 10vw;">
+
+          <h3 style="margin-top: 80px;">Gaïa, c'est quoi ?</h3>
+          <p style="margin-top: 60px; padding-left: 10vw;">C'est une jeune start-up qui a pour but de sensibiliser la jeunesse au
+            développement durable et la
+            préservation de la planète !</p>
+          <ion-button style="margin-top: 60px;" round color="danger">Ça m'intéresse</ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <!-- Pourquoi -->
+
+    <ion-row>
+      <ion-col size="8" style="text-align: left;">
+        <div style="margin-left: 10vw;">
+          <h3 style="margin-top: 80px;">La mission Gaïa</h3>
+          <p style="margin-top: 60px; padding-right: 10vw;">Notre plateforme te propose de nettoyer ta ville tout en gagnant des cadeaux et
+            en faisant des encontres plus enrichissantes les unes que les autres. Grâce à notre système de points, tu gagnes des
+            opportunités de plus grande ampleur !</p>
+          <ion-button style="margin-top: 60px;" round color="danger">Ça m'intéresse</ion-button>
+        </div>
+      </ion-col>
+
+      <ion-col style="background-image: url('assets/elements/screen2.png'); height: 400px; background-position: top center;">
+        <!-- <img src="assets/elements/screen1.png" style="margin: auto; object-fit: cover; height: 400px; width: 100%;"> -->
+      </ion-col>
+    </ion-row>
+
+    <!-- Comment -->
+    <ion-row>
+      <ion-col style="background-image: url('assets/elements/screen3.png'); height: 600px; background-position: top center;">
+        <!-- <img src="assets/elements/screen1.png" style="margin: auto; object-fit: cover; height: 400px; width: 100%;"> -->
+      </ion-col>
+
+      <ion-col style="text-align: right;">
+        <div style="margin-right: 10vw;">
+
+          <h3 style="margin-top: 80px;">Comment participer ?</h3>
+          <p style="margin-top: 60px; padding-left: 10vw;">Via la map interactive de Gaïa, tu peux facilement localiser les endroits pollués autour de toi.C'est parti pour une petite éco-balade !<br>
+            En nettoyant des endroits pollués tu gagnes des points. À partir d'un certain cumul, tu débloques l'accès à des programmes de plus grande envergure. Tu peux ainsi gagner des prix mais aussi participer à des évènements exclusifs! Cool non ? 😉</p>
+          <ion-button style="margin-top: 60px;" round color="danger">Ça m'intéresse !</ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <!-- Chiffres -->
+    <h3>QUELQUES CHIFFRES</h3>
+    <ion-row>
+
+      <ion-col>
+        <ion-row>img</ion-row>
+        <ion-row>
+          <h4>1234</h4>
+          <p>C'est un nombre</p>
+        </ion-row>
+      </ion-col>
+      <ion-col>
+        <ion-row>img</ion-row>
+        <ion-row>
+          <h4>1234</h4>
+          <p>C'est un nombre</p>
+        </ion-row>
+      </ion-col>
+      <ion-col>
+        <ion-row>img</ion-row>
+        <ion-row>
+          <h4>1234</h4>
+          <p>C'est un nombre</p>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <p>Logo</p>
+        <p>© GAÏA 2019</p>
+      </ion-col>
+
+      <ion-col offset="1">
+        <p>Instagram</p>
+        <p>Snapchat</p>
+      </ion-col>
+
+      <ion-col>
+        <p>S'inscrire à la newsletter</p>
+      </ion-col>
+
+      <ion-col offset="1">
+        <p>19 rue Voltaire 75011 Paris</p>
+        <p>+33 1 73 54 14 72</p>
+        <p>groupemokka@gmail.com</p>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
 </ion-content>
